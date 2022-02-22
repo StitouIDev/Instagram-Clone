@@ -8,20 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		BB2F7FC827C41A2D000A3FB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F7FC727C41A2D000A3FB4 /* AppDelegate.swift */; };
-		BB2F7FCA27C41A2D000A3FB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F7FC927C41A2D000A3FB4 /* ViewController.swift */; };
+		BB2F7FCA27C41A2D000A3FB4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F7FC927C41A2D000A3FB4 /* HomeVC.swift */; };
 		BB2F7FCD27C41A2D000A3FB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2F7FCB27C41A2D000A3FB4 /* Main.storyboard */; };
 		BB2F7FCF27C41A2F000A3FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2F7FCE27C41A2F000A3FB4 /* Assets.xcassets */; };
 		BB2F7FD227C41A2F000A3FB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2F7FD027C41A2F000A3FB4 /* LaunchScreen.storyboard */; };
+		BB2F7FDF27C43D0F000A3FB4 /* ExploreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F7FDE27C43D0F000A3FB4 /* ExploreVC.swift */; };
+		BB2F7FE127C43D2B000A3FB4 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F7FE027C43D2B000A3FB4 /* CameraVC.swift */; };
+		BB2F7FE327C43D5A000A3FB4 /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F7FE227C43D5A000A3FB4 /* NotificationsVC.swift */; };
+		BB2F7FE527C43D74000A3FB4 /* ProfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F7FE427C43D74000A3FB4 /* ProfilVC.swift */; };
+		BB2F7FE927C43EA9000A3FB4 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F7FE827C43EA9000A3FB4 /* LoginVC.swift */; };
+		BB2F7FEB27C43EBD000A3FB4 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F7FEA27C43EBD000A3FB4 /* RegisterVC.swift */; };
+		BB2F7FED27C43EE5000A3FB4 /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F7FEC27C43EE5000A3FB4 /* PostVC.swift */; };
+		BB2F7FEF27C43F2C000A3FB4 /* EditProfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F7FEE27C43F2C000A3FB4 /* EditProfilVC.swift */; };
+		BB2F7FF127C43F5B000A3FB4 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F7FF027C43F5B000A3FB4 /* SettingsVC.swift */; };
+		BB2F7FF527C43FE1000A3FB4 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F7FF427C43FE1000A3FB4 /* SearchVC.swift */; };
+		BB2F7FF727C43FF5000A3FB4 /* SearchResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F7FF627C43FF5000A3FB4 /* SearchResultVC.swift */; };
+		BB2F7FF927C44059000A3FB4 /* PostEditorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F7FF827C44059000A3FB4 /* PostEditorVC.swift */; };
+		BB2F7FFB27C44071000A3FB4 /* PublishPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F7FFA27C44071000A3FB4 /* PublishPostVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB2F7FC427C41A2D000A3FB4 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2F7FC727C41A2D000A3FB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB2F7FC927C41A2D000A3FB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB2F7FC927C41A2D000A3FB4 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		BB2F7FCC27C41A2D000A3FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB2F7FCE27C41A2F000A3FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB2F7FD127C41A2F000A3FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB2F7FD327C41A2F000A3FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2F7FDE27C43D0F000A3FB4 /* ExploreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreVC.swift; sourceTree = "<group>"; };
+		BB2F7FE027C43D2B000A3FB4 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		BB2F7FE227C43D5A000A3FB4 /* NotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
+		BB2F7FE427C43D74000A3FB4 /* ProfilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilVC.swift; sourceTree = "<group>"; };
+		BB2F7FE827C43EA9000A3FB4 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		BB2F7FEA27C43EBD000A3FB4 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		BB2F7FEC27C43EE5000A3FB4 /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
+		BB2F7FEE27C43F2C000A3FB4 /* EditProfilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfilVC.swift; sourceTree = "<group>"; };
+		BB2F7FF027C43F5B000A3FB4 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		BB2F7FF427C43FE1000A3FB4 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		BB2F7FF627C43FF5000A3FB4 /* SearchResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultVC.swift; sourceTree = "<group>"; };
+		BB2F7FF827C44059000A3FB4 /* PostEditorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorVC.swift; sourceTree = "<group>"; };
+		BB2F7FFA27C44071000A3FB4 /* PublishPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,99 @@
 		BB2F7FC627C41A2D000A3FB4 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				BB2F7FDC27C41B26000A3FB4 /* Resources */,
+				BB2F7FDB27C41B15000A3FB4 /* Model */,
+				BB2F7FDA27C41AF9000A3FB4 /* View */,
+				BB2F7FD927C41AE1000A3FB4 /* Controller */,
+				BB2F7FDD27C41C16000A3FB4 /* Storyboard */,
 				BB2F7FC727C41A2D000A3FB4 /* AppDelegate.swift */,
-				BB2F7FC927C41A2D000A3FB4 /* ViewController.swift */,
-				BB2F7FCB27C41A2D000A3FB4 /* Main.storyboard */,
 				BB2F7FCE27C41A2F000A3FB4 /* Assets.xcassets */,
 				BB2F7FD027C41A2F000A3FB4 /* LaunchScreen.storyboard */,
 				BB2F7FD327C41A2F000A3FB4 /* Info.plist */,
 			);
 			path = Instagram;
+			sourceTree = "<group>";
+		};
+		BB2F7FD927C41AE1000A3FB4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F7FFC27C44084000A3FB4 /* Post */,
+				BB2F7FF327C43FC9000A3FB4 /* Search */,
+				BB2F7FF227C43F60000A3FB4 /* Edit */,
+				BB2F7FE727C43E4D000A3FB4 /* First */,
+				BB2F7FC927C41A2D000A3FB4 /* HomeVC.swift */,
+				BB2F7FDE27C43D0F000A3FB4 /* ExploreVC.swift */,
+				BB2F7FE027C43D2B000A3FB4 /* CameraVC.swift */,
+				BB2F7FE227C43D5A000A3FB4 /* NotificationsVC.swift */,
+				BB2F7FE427C43D74000A3FB4 /* ProfilVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB2F7FDA27C41AF9000A3FB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB2F7FDB27C41B15000A3FB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB2F7FDC27C41B26000A3FB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BB2F7FDD27C41C16000A3FB4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F7FCB27C41A2D000A3FB4 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		BB2F7FE727C43E4D000A3FB4 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F7FE827C43EA9000A3FB4 /* LoginVC.swift */,
+				BB2F7FEA27C43EBD000A3FB4 /* RegisterVC.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		BB2F7FF227C43F60000A3FB4 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F7FEE27C43F2C000A3FB4 /* EditProfilVC.swift */,
+				BB2F7FF027C43F5B000A3FB4 /* SettingsVC.swift */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		BB2F7FF327C43FC9000A3FB4 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F7FF427C43FE1000A3FB4 /* SearchVC.swift */,
+				BB2F7FF627C43FF5000A3FB4 /* SearchResultVC.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		BB2F7FFC27C44084000A3FB4 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F7FEC27C43EE5000A3FB4 /* PostVC.swift */,
+				BB2F7FFA27C44071000A3FB4 /* PublishPostVC.swift */,
+				BB2F7FF827C44059000A3FB4 /* PostEditorVC.swift */,
+			);
+			path = Post;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +246,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB2F7FCA27C41A2D000A3FB4 /* ViewController.swift in Sources */,
+				BB2F7FF527C43FE1000A3FB4 /* SearchVC.swift in Sources */,
+				BB2F7FF127C43F5B000A3FB4 /* SettingsVC.swift in Sources */,
+				BB2F7FDF27C43D0F000A3FB4 /* ExploreVC.swift in Sources */,
+				BB2F7FFB27C44071000A3FB4 /* PublishPostVC.swift in Sources */,
+				BB2F7FEB27C43EBD000A3FB4 /* RegisterVC.swift in Sources */,
+				BB2F7FE327C43D5A000A3FB4 /* NotificationsVC.swift in Sources */,
+				BB2F7FE927C43EA9000A3FB4 /* LoginVC.swift in Sources */,
+				BB2F7FF727C43FF5000A3FB4 /* SearchResultVC.swift in Sources */,
+				BB2F7FF927C44059000A3FB4 /* PostEditorVC.swift in Sources */,
+				BB2F7FCA27C41A2D000A3FB4 /* HomeVC.swift in Sources */,
 				BB2F7FC827C41A2D000A3FB4 /* AppDelegate.swift in Sources */,
+				BB2F7FEF27C43F2C000A3FB4 /* EditProfilVC.swift in Sources */,
+				BB2F7FED27C43EE5000A3FB4 /* PostVC.swift in Sources */,
+				BB2F7FE527C43D74000A3FB4 /* ProfilVC.swift in Sources */,
+				BB2F7FE127C43D2B000A3FB4 /* CameraVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
