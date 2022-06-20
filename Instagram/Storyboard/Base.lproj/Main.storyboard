@@ -18,6 +18,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TTt-xj-fP4">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.39133004496599144" green="0.43061245790842556" blue="0.47239847715736039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="Gk5-C7-I6D" kind="relationship" relationship="rootViewController" id="Cjt-iK-sFg"/>
@@ -70,7 +73,7 @@
         <scene sceneID="Zih-H4-6Mu">
             <objects>
                 <navigationController id="zUR-w9-SD5" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="appointment-reminders" id="Jd3-LU-RkU"/>
+                    <tabBarItem key="tabBarItem" title="" image="notification" id="Jd3-LU-RkU"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IJL-vD-IdV">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -199,9 +202,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="appointment-reminders" width="30" height="30"/>
         <image name="contacts" width="30" height="30"/>
         <image name="home" width="30" height="30"/>
+        <image name="notification" width="30" height="30"/>
         <image name="plus-math" width="30" height="30"/>
         <image name="search" width="30" height="30"/>
     </resources>
